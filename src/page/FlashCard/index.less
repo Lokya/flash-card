@@ -1,0 +1,114 @@
+.card-show {
+  width: 100%;
+  height: 100%;
+
+  .card-content {
+    width: 44rem;
+    height: 44rem;
+    overflow: hidden;
+    margin: 10rem auto;
+
+    .card-list {
+      display: inline-flex;
+      justify-content: space-between;
+      transition: all 0.3s linear;
+      .card-box {
+        width: 44rem;
+        height: 44rem;
+        position: relative;
+        .card-front {
+          width: 40rem;
+          height: 40rem;
+          margin: 2rem;
+          box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+          position: absolute;
+          transition: all 0.8s linear;
+          -webkit-perspective: 1000;
+          backface-visibility:hidden;
+
+          .change-btn {
+            content: '';
+            position: absolute;
+            background: url(../../../public/images/change.png) no-repeat;
+            width: 30px;
+            height: 30px;
+            background-size: 30px;
+            z-index: 100;
+            right: 0.5rem;
+            top: 0.5rem;
+            &:hover {
+              cursor: pointer;
+              background: url(../../../public/images/change-hover.png) no-repeat;
+              background-size: 30px;
+            }
+          }
+
+          .word {
+            font-size: 6rem;
+            text-align: center;
+            line-height: 40rem;
+            width: 100%;
+            height: 100%;
+          }
+          .pre-btn, .next-btn {
+            width: 20rem;
+            height: 40rem;
+            display: inline-block;
+            position: absolute;
+            top: 0;
+          }
+          .pre-btn {
+            left: 0;
+          }
+          .next-btn {
+            right: 0;
+          }
+        }
+
+        .card-back {
+          width: 40rem;
+          height: 40rem;
+          margin: 2rem;
+          box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+          position: absolute;
+          transition: all 0.8s linear;
+          -webkit-perspective: 1000;
+          transform: rotateY(180deg);
+          backface-visibility:hidden;
+
+          .change-btn {
+            content: '';
+            position: absolute;
+            background: url(../../../public/images/change.png) no-repeat;
+            width: 30px;
+            height: 30px;
+            background-size: 30px;
+            z-index: 100;
+            right: 0.5rem;
+            top: 0.5rem;
+            &:hover {
+              cursor: pointer;
+              background: url(../../../public/images/change-hover.png) no-repeat;
+              background-size: 30px;
+            }
+          }
+
+          .word {
+            font-size: 6rem;
+            text-align: center;
+            line-height: 40rem;
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .rotate-front {
+          transform: rotateY(180deg);
+        }
+        .rotate-back {
+          transform: rotateY(360deg);
+        }
+      }
+    }
+  }
+}

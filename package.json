@@ -1,0 +1,54 @@
+{
+  "name": "flashCard",
+  "version": "0.1.0",
+  "private": true,
+  "main": "main.js",
+  "author": "lokya",
+  "homepage": ".",
+  "dependencies": {
+    "@types/react": "^16.7.20",
+    "@types/react-dom": "^16.0.11",
+    "@types/react-router": "^4.4.3",
+    "@types/react-router-dom": "^4.3.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.0",
+    "electron": "^4.1.3",
+    "electron-packager": "^13.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.3",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.4",
+    "url-loader": "^1.1.2",
+    "xlsx": "^0.14.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --progress --open --hot",
+    "elestart": "electron .",
+    "packager": "electron-packager ./ flashCard --mac --arch=x64 --out=./build --app-version=1.0.1 --overwrite",
+    "build": "webpack --config webpack.config.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
