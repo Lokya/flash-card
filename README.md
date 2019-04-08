@@ -32,7 +32,7 @@ react + electron + js-xlsx + react-router + electron-packager
 
 2、key从1开始到所有单词长度，不可重复。word列为你要展示的单词，pronunciation为读法或者发音的内容，translate为翻译
 
-3、报错excel文件，读取使用
+3、保存excel文件，读取使用
 
 例如：
 
@@ -49,7 +49,7 @@ react + electron + js-xlsx + react-router + electron-packager
 3、支持顺序预览单词和乱序预览单词
 
 ### 5、后续功能还在完善中
-
+比如暂时只支持mac使用，win版没做等等等等等等等等等等等等等等等。。。。
 
 
 

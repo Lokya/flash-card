@@ -31,7 +31,7 @@
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.js --progress --open --hot",
     "elestart": "electron .",
-    "packager": "electron-packager ./ flashCard --mac --arch=x64 --out=./build --app-version=1.0.1 --overwrite",
+    "packager": "electron-packager ./ flashCard --mac --arch=x64 --out=./build --app-version=1.0.1 --icon=./flashcard.icns --overwrite",
     "build": "webpack --config webpack.config.js"
   },
   "eslintConfig": {
