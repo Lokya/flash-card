@@ -24,3 +24,34 @@ react + electron + js-xlsx + react-router + electron-packager
 
 生成可执行文件： yarn build 然后执行 yarn packager 在./build/flashCard-darwin-x64/下面可以找到flash-card.app文件 双击执行即可
 
+:exclamation: excel格式 (特别注意)
+
+1、定义4列 分别为 key word pronunciation translate
+
+解释：key主键 word单词 pronunciation发音、读法 translate翻译
+
+2、key从1开始到所有单词长度，不可重复。word列为你要展示的单词，pronunciation为读法或者发音的内容，translate为翻译
+
+3、报错excel文件，读取使用
+
+例如：
+
+|key|word|pronunciation|translate|
+|---|---|---|---|
+|1|hello|[hə'ləʊ]|你好|
+|2|name|[[neɪm]]|姓名|
+
+### 4、程序使用
+1、点击开始使用，可以在帮助选项看到如何使用
+
+2、点击选择excel文件
+
+3、支持顺序预览单词和乱序预览单词
+
+### 5、后续功能还在完善中
+
+
+
+
+## :stuck_out_tongue_closed_eyes:又不是不能能用，理解万岁（破音） ---罗老师名言
+
