@@ -7,6 +7,7 @@ google和百度了许多，要么就是要收费，要么就是功能达不到�
 
 ### 2、相关
 环境: node环境
-react + electron + js-xlsx
+打包: webpack + electron-packager
+react + electron + js-xlsx + react-router + electron-packager
 项目中的TS没怎么用到，只是搭建的框架上带了就顺便用了
 
