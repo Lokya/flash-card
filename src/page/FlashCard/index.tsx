@@ -72,6 +72,7 @@ class FlashCard extends React.Component<any, FlashCardState> {
                       <span className='pre-btn' onClick={this.previous}></span>
                       <span className='next-btn' onClick={this.next}></span>
                       <div className='word'>{word.word}</div>
+                      <div className='pronunciation'>{word.pronunciation}</div>
                     </div>
                     <div className={`card-back ${changeFlag ? 'rotate-back' : ''}`}>
                       <span className='change-btn' onClick={(e) => this.rotateCard(e, word)}></span>
