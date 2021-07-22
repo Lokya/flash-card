@@ -2235,12 +2235,11 @@ caseless@~0.12.0:
   version "0.12.0"
   resolved "http://nexus.saas.hand-china.com/content/groups/srm-npm-group/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
 
-cfb@^1.1.0:
-  version "1.1.1"
-  resolved "http://nexus.saas.hand-china.com/content/groups/srm-npm-group/cfb/-/cfb-1.1.1.tgz#7f399f4c541954715d0ced9b1cdecc52b554290a"
+cfb@^1.1.4:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/cfb/-/cfb-1.2.0.tgz#6a4d0872b525ed60349e1ef51fb4b0bf73eca9a8"
   dependencies:
     adler-32 "~1.2.0"
-    commander "^2.16.0"
     crc-32 "~1.2.0"
     printj "~1.1.2"
 
@@ -2449,7 +2448,7 @@ commander@2.17.x, commander@~2.17.1:
   version "2.17.1"
   resolved "http://nexus.saas.hand-china.com/content/groups/srm-npm-group/commander/-/commander-2.17.1.tgz#bd77ab7de6de94205ceacc72f1716d29f20a77bf"
 
-commander@^2.11.0, commander@^2.16.0, commander@^2.19.0, commander@~2.20.0:
+commander@^2.11.0, commander@^2.19.0, commander@~2.20.0:
   version "2.20.0"
   resolved "http://nexus.saas.hand-china.com/content/groups/srm-npm-group/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
 
@@ -3810,6 +3809,10 @@ fd-slicer@~1.0.1:
   resolved "http://nexus.saas.hand-china.com/content/groups/srm-npm-group/fd-slicer/-/fd-slicer-1.0.1.tgz#8b5bcbd9ec327c5041bf9ab023fd6750f1177e65"
   dependencies:
     pend "~1.2.0"
+
+fflate@^0.3.8:
+  version "0.3.11"
+  resolved "https://registry.yarnpkg.com/fflate/-/fflate-0.3.11.tgz#2c440d7180fdeb819e64898d8858af327b042a5d"
 
 figgy-pudding@^3.5.1:
   version "3.5.1"
@@ -8656,9 +8659,9 @@ sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "http://nexus.saas.hand-china.com/content/groups/srm-npm-group/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
 
-ssf@~0.10.2:
-  version "0.10.2"
-  resolved "http://nexus.saas.hand-china.com/content/groups/srm-npm-group/ssf/-/ssf-0.10.2.tgz#65b2b4fcdfd967bc8e8383a41349009893115976"
+ssf@~0.11.2:
+  version "0.11.2"
+  resolved "https://registry.yarnpkg.com/ssf/-/ssf-0.11.2.tgz#0b99698b237548d088fc43cdf2b70c1a7512c06c"
   dependencies:
     frac "~1.1.2"
 
@@ -9734,6 +9737,14 @@ wide-align@^1.1.0:
   dependencies:
     string-width "^1.0.2 || 2"
 
+wmf@~1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/wmf/-/wmf-1.0.2.tgz#7d19d621071a08c2bdc6b7e688a9c435298cc2da"
+
+word@~0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/word/-/word-0.3.0.tgz#8542157e4f8e849f4a363a288992d47612db9961"
+
 wordwrap@~0.0.2:
   version "0.0.3"
   resolved "http://nexus.saas.hand-china.com/content/groups/srm-npm-group/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
@@ -9897,17 +9908,20 @@ ws@^7.0.0:
   dependencies:
     async-limiter "^1.0.0"
 
-xlsx@^0.14.2:
-  version "0.14.3"
-  resolved "http://nexus.saas.hand-china.com/content/groups/srm-npm-group/xlsx/-/xlsx-0.14.3.tgz#09b7534d95ba8f9aca2c462d0f6603e080202224"
+xlsx@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/xlsx/-/xlsx-0.17.0.tgz#028176a0140967dcee1817d221678461e47481c8"
   dependencies:
     adler-32 "~1.2.0"
-    cfb "^1.1.0"
+    cfb "^1.1.4"
     codepage "~1.14.0"
     commander "~2.17.1"
     crc-32 "~1.2.0"
     exit-on-epipe "~1.0.1"
-    ssf "~0.10.2"
+    fflate "^0.3.8"
+    ssf "~0.11.2"
+    wmf "~1.0.1"
+    word "~0.3.0"
 
 xml-name-validator@^3.0.0:
   version "3.0.0"
