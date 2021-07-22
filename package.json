@@ -26,7 +26,7 @@
     "ts-loader": "^5.3.3",
     "typescript": "^3.2.4",
     "url-loader": "^1.1.2",
-    "xlsx": "^0.14.2"
+    "xlsx": "^0.17.0"
   },
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.js --progress --open --hot",
